@@ -13,14 +13,14 @@ const Page = () => {
   };
 
   // Set data based on `id`
-  if (id === "") {
+  if (id === "123") {
     pageData = {
       title: "Page 1 Title",
       description: "Description for Page 1.",
       image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
       url: `https://test-beta-tawny-81.vercel.app/content/123`,
     };
-  } else if (id === "ITV198697151801") {
+  } else if (id === "456") {
     pageData = {
       title: "Page 2 Title",
       description: "Description for Page 2.",
