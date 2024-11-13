@@ -13,19 +13,19 @@ const Page = () => {
   };
 
   // Set data based on `id`
-  if (id === "123") {
+  if (id === "") {
     pageData = {
       title: "Page 1 Title",
       description: "Description for Page 1.",
-      image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv_page1.jpg",
-      url: `https://yourdomain.com/dsr/ITV091430516067`,
+      image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
+      url: `https://test-beta-tawny-81.vercel.app/content/123`,
     };
-  } else if (id === "456") {
+  } else if (id === "ITV198697151801") {
     pageData = {
       title: "Page 2 Title",
       description: "Description for Page 2.",
-      image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv_page2.jpg",
-      url: `https://yourdomain.com/dsr/ITV198697151801`,
+      image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
+      url: `https://test-beta-tawny-81.vercel.app/content/456`,
     };
   }
 
