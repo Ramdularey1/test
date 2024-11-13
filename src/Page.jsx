@@ -8,8 +8,8 @@ const Page = () => {
   let pageData = {
     title: "Default Title",
     description: "Default description.",
-    image: "https://defaultimage.com/default.jpg",
-    url: `https://yourdomain.com/dsr/default`,
+    image: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
+    url: `https://test-beta-tawny-81.vercel.app/content/123`,
   };
 
   // Set data based on `id`
