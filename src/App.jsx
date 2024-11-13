@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Define routes with 'element' to indicate the component */}
         <Route path="/" element={<Home />} />
         <Route path="/content" element={<Content />} />
         {/* Dynamic route to handle :id */}

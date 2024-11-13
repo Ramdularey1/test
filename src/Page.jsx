@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
 
 const Page = () => {
@@ -30,20 +30,22 @@ const Page = () => {
   }
 
   return (
-    <div>
-      <Helmet>
-        <title>{pageData.title}</title>
-        <meta property="og:title" content={pageData.title} />
-        <meta property="og:description" content={pageData.description} />
-        <meta property="og:image" content={pageData.image} />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:url" content={pageData.url} />
-        <meta property="og:type" content="website" />
-      </Helmet>
+    <HelmetProvider>
+      <div>
+        <Helmet>
+          <title>{pageData.title}</title>
+          <meta property="og:title" content={pageData.title} />
+          <meta property="og:description" content={pageData.description} />
+          <meta property="og:image" content={pageData.image} />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta property="og:url" content={pageData.url} />
+          <meta property="og:type" content="website" />
+        </Helmet>
 
-      <h1>{pageData.title}</h1>
-      <p>{pageData.description}</p>
-    </div>
+        <h1>{pageData.title}</h1>
+        <p>{pageData.description}</p>
+      </div>
+    </HelmetProvider>
   );
 };
 
