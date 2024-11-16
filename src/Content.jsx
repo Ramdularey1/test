@@ -8,8 +8,8 @@ function Content() {
     keywords: ["content1", "content2"],
     ogTitle: "Ogtitle for content",
     ogDescription: "ogdescription for content",
-    ogImage: "http://content.com/image1.png",
-    ogUrl: "http://content.com/url"
+    ogImage: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
+    ogUrl: "https://test-beta-tawny-81.vercel.app/content"
   })
   return (
     <div>

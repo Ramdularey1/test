@@ -8,8 +8,8 @@ function About() {
         keywords: ["about1", "about2"],
         ogTitle: "Ogtitle for about",
         ogDescription: "ogdescription for about",
-        ogImage: "http://about.com/image1.png",
-        ogUrl: "http://about.com/url"
+        ogImage: "https://res.cloudinary.com/dhkh3mqcu/image/upload/v1731423946/revspirelogo1_vmwriv.svg",
+        ogUrl: "https://test-beta-tawny-81.vercel.app/about"
       })
   return (
     <div>About</div>
