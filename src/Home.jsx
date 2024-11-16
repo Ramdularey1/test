@@ -7,7 +7,7 @@ function Home() {
     <div>
       <div className=''>
         <Link to = "/content">Content</Link>
-        <Link to = "/About">About</Link>
+        <Link to = "/about">About</Link>
       </div>
       
     </div>
