@@ -4,7 +4,7 @@ import usePage from './hooks/useOpenGraph';
 function Content() {
   usePage({
     title: "This is Content Page",
-    description: "This is description of content",
+    description: ["This is description of content"],
     keywords: ["content1", "content2"],
     ogTitle: "Ogtitle for content",
     ogDescription: "ogdescription for content",
