@@ -68,10 +68,10 @@ const usePage = ({
 
       setMetaTag('name', 'description', description)
       setMetaTag('name', 'keywords', keywords.join(', ')) // Join keywords array into a string
-      setMetaTag('property', 'og:title', ogTitle || title)
-      setMetaTag('property', 'og:description', ogDescription || description)
-      setMetaTag('property', 'og:image', ogImage)
-      setMetaTag('property', 'og:url', ogUrl || window.location.href)
+      setMetaTag('property', 'og : title', ogTitle || title)
+      setMetaTag('property', 'og : description', ogDescription || description)
+      setMetaTag('property', 'og : image', ogImage)
+      setMetaTag('property', 'og : url', ogUrl || window.location.href)
       
     }, [
       title,
